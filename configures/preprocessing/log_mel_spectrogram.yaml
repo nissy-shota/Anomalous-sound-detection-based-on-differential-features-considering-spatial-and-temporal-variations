@@ -1,0 +1,13 @@
+name: log_mel_spectrogram
+file_name: multi_channels_log_mel_spectrogram.pt
+feature:
+  n_frames: 10
+  n_hop_frames: 1
+  n_fft: 1024
+  hop_length: 512
+  power: 2.0
+  sample_rate: 16000
+  n_mels: 128
+
+conv1_in_channels: 4
+linear_in: 768
